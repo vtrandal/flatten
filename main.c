@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-#if 1
+#if 0
     display_images(argv[1], NUM_IMAGES);
 #else
     // Write the flattened images to a new IDX file
